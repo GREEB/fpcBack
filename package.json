@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "fh5-pc-server",
+  "version": "0.1.0",
+  "description": "Forza horizon point cloud server",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lodash.throttle": "^4.1.1",
+    "mongoose": "^6.0.15",
+    "on-change": "^4.0.0",
+    "redis": "^4.0.0",
+    "socket.io": "^4.4.0"
+  }
+}
